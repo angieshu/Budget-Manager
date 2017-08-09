@@ -5,14 +5,14 @@
     <br>
     <a href=""><img src="https://github.com/angieshu/Budgie/blob/master/img/budgie_intro.gif" width="300"></a>
     <br>
-</h1>
-
 <h4 align="center">
     Budget Manager iOS App
+    <br>
     <br>
     <a href=""><img src="https://github.com/angieshu/Budgie/blob/master/img/budgie_screenshots.png" "width="300"></a>
     <br>
 </h4>
+</h1>
 
 # Budgie
 
