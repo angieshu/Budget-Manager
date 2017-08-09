@@ -1,11 +1,18 @@
 <h1 align="center">
     <br>
-        Budgie
+    Budgie
     <br>
     <br>
-        <a href=""><img src="https://github.com/angieshu/Budgie/blob/master/img/budgie_intro.gif" width="300"></a>
+    <a href=""><img src="https://github.com/angieshu/Budgie/blob/master/img/budgie_intro.gif" width="300"></a>
     <br>
 </h1>
+
+<h4 align="center">
+    Budget Manager iOS App
+    <br>
+    <a href=""><img src="https://github.com/angieshu/Budgie/blob/master/img/budgie_screenshots.png" "width="300"></a>
+    <br>
+</h4>
 
 # Budgie
 
