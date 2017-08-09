@@ -40,7 +40,6 @@ Budgie was built in XCode 8.0. I also used [iOS Charts API](https://github.com/d
 <h1 align="center">
 <br>
 <a href=""><img src="https://github.com/angieshu/Budgie/blob/master/img/interface.png"></a>
-<br>
 </h1>
 
 I used UIViewController for 'Welcome' window and UITabBarController that has 4 UIViewControllers in it for the rest.
@@ -50,6 +49,22 @@ I used UIViewController for 'Welcome' window and UITabBarController that has 4 U
 There are 4 classes to control windows: IncomeVC, ExpensesVC, GoalsVC, and SummaryVC. 'Welcome' window connected with Tab Bar Controller by tapping a button.
 
 ### IncomeVC and ExpensesVC
+
+These two classes are very similar to each other. So here I'm going to describe only one of them.
+
+Class contains 5 IBOutlets and 2 arrays: one keeps names of months, and second - has information about the income during those months.
+
+![viewDidLoad](https://github.com/angieshu/Budgie/blob/master/img/income_view.png)
+
+When application is started, it downloads user's data, displays information on a screen and creates a bar chart with information about income during past months. saveData() function is called every time when user makes cnahges.
+
+![add income](https://github.com/angieshu/Budgie/blob/master/img/add_income.png)
+
+As soons as user tapped 'Add income' button, function addIncomeTapped() gets called. Here I validate input: check whether text field was empty, or negative or invalid number was entered. If everything was good, I update both total and current month incomes, save data, display an updated chart, and under the text field show a massage about amount was added. Otherwise, the function throws an error massage.
+
+
+
+
 
 
 
