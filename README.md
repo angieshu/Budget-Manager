@@ -54,11 +54,11 @@ These two classes are very similar to each other. So here I'm going to describe 
 
 Class contains 5 IBOutlets and 2 arrays: one keeps names of months, and second - has information about the income during those months.
 
-![viewDidLoad](https://github.com/angieshu/Budgie/blob/master/img/income_view.png)
+<img width="558" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/income_view.png">
 
 When application is started, it downloads user's data, displays information on a screen and creates a bar chart with information about income during past months. saveData() function is called every time when user makes cnahges.
 
-![add income](https://github.com/angieshu/Budgie/blob/master/img/add_income.png)
+<img width="558" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/add_income.png">"
 
 As soons as user tapped 'Add income' button, function addIncomeTapped() gets called. Here I validate input: check whether text field was empty, or negative or invalid number was entered. If everything was good, I update both total and current month incomes, save data, display an updated chart, and under the text field show a massage about amount was added. Otherwise, the function throws an error massage.
 
