@@ -2,6 +2,7 @@
     <br>
         Budgie
     <br>
+    <br>
         <a href=""><img src="https://github.com/angieshu/Budgie/blob/master/img/budgie_intro.gif" width="300"></a>
     <br>
 </h1>
