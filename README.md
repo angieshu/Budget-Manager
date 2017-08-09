@@ -85,6 +85,21 @@ When the user taps a 'Set goal' button setButtonTapped() function gets called. H
 <img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_setGoal1.png">
 <img width="500" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_setGoal2.png">
 
+Goal label consists of 5 elements: background, goal name and amount, 'Delete' button, 'add payment' button and 'add payment' text field. Each of them has to be created programmatically every time when user sets a new goal.
+
+<img width="540" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goal_make.png">
+<img width="540" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goal_make2.png">
+
+addPayment() function changes the goal's amount and then saves data.
+
+<img width="500" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_addpayment.png">
+
+The last function in this class I want to talk about, is called pressButton(). It gets called when the user wants to delete one of the goals. When this happens, the goal has to be removed from a dictionary, all the labels and buttons have to be removed as well, and, if there are any goals below the one that needs to be deleted, each of them has to be moved upward. Huh, I think, that is it for this class. 
+
+<img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_pressbutton.png">
+
+
+### SummaryVC
 
 
 
