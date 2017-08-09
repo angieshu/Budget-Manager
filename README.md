@@ -52,15 +52,26 @@ There are 4 classes to control windows: IncomeVC, ExpensesVC, GoalsVC, and Summa
 
 These two classes are very similar to each other. So here I'm going to describe only one of them.
 
-Class contains 5 IBOutlets and 2 arrays: one keeps names of months, and second - has information about the income during those months.
-
-<img width="558" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/income_view.png">
+Class contains 5 IBOutlets and 2 arrays: one keeps names of months, and second - has information about the income during those months. 
 
 When application is started, it downloads user's data, displays information on a screen and creates a bar chart with information about income during past months. saveData() function is called every time when user makes cnahges.
 
-<img width="558" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/add_income.png">"
+<img width="558" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/income_view.png">
 
 As soons as user tapped 'Add income' button, function addIncomeTapped() gets called. Here I validate input: check whether text field was empty, or negative or invalid number was entered. If everything was good, I update both total and current month incomes, save data, display an updated chart, and under the text field show a massage about amount was added. Otherwise, the function throws an error massage.
+
+<img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/add_income.png">
+
+In the following function I set a bar chart based on the information about income provided by user.
+
+<img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/set_chart.png">
+
+Finally, in updateTotalIncome() I count sum of all the incomes from current and previous moths, in updateIncomeThisMonth() - as you could guess from the name - update indormation about current month income, and currencyFormat() simply converts entered number to the currency format string.
+
+<img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/income_finally.png">
+
+### GoalsVC
+
 
 
 
