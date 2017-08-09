@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Budget Manager
 //
-//  Created by Anhelina Shulha on 7/30/17.
+//  Created by Anhelina Shulha on 8/5/17.
 //  Copyright © 2017 Anhelina Shulha. All rights reserved.
 //
 

@@ -7,85 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BA6FF911F2EDB56008CAE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6FF901F2EDB56008CAE9C /* AppDelegate.swift */; };
-		0BA6FF931F2EDB56008CAE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6FF921F2EDB56008CAE9C /* ViewController.swift */; };
-		0BA6FF961F2EDB56008CAE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA6FF941F2EDB56008CAE9C /* Main.storyboard */; };
-		0BA6FF981F2EDB56008CAE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA6FF971F2EDB56008CAE9C /* Assets.xcassets */; };
-		0BA6FF9B1F2EDB56008CAE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA6FF991F2EDB56008CAE9C /* LaunchScreen.storyboard */; };
-		0BA6FFA31F2EE349008CAE9C /* IncomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6FFA21F2EE349008CAE9C /* IncomeVC.swift */; };
-		0BA6FFA51F2EE385008CAE9C /* ExpensesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6FFA41F2EE385008CAE9C /* ExpensesVC.swift */; };
-		0BA6FFA71F2EE3DF008CAE9C /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6FFA61F2EE3DF008CAE9C /* GoalsVC.swift */; };
-		0BA6FFA91F2EE3F1008CAE9C /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA6FFA81F2EE3F1008CAE9C /* SummaryVC.swift */; };
+		031CCFCBC269D30F2BA6BA66 /* Pods_Budget_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9809003D91791130C50D2F /* Pods_Budget_Manager.framework */; };
+		0B93A4FC1F36EFDE004F4C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93A4FB1F36EFDE004F4C26 /* AppDelegate.swift */; };
+		0B93A4FE1F36EFDE004F4C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93A4FD1F36EFDE004F4C26 /* ViewController.swift */; };
+		0B93A5011F36EFDE004F4C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B93A4FF1F36EFDE004F4C26 /* Main.storyboard */; };
+		0B93A5031F36EFDE004F4C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B93A5021F36EFDE004F4C26 /* Assets.xcassets */; };
+		0B93A5061F36EFDE004F4C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B93A5041F36EFDE004F4C26 /* LaunchScreen.storyboard */; };
+		0B93A50E1F36F096004F4C26 /* IncomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93A50D1F36F096004F4C26 /* IncomeVC.swift */; };
+		0B93A5101F36F0A8004F4C26 /* ExpensesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93A50F1F36F0A8004F4C26 /* ExpensesVC.swift */; };
+		0B93A5121F36F0CB004F4C26 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93A5111F36F0CB004F4C26 /* Goals.swift */; };
+		0B93A5141F36F0DE004F4C26 /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B93A5131F36F0DE004F4C26 /* SummaryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BA6FF8D1F2EDB56008CAE9C /* Budget Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BA6FF901F2EDB56008CAE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BA6FF921F2EDB56008CAE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BA6FF951F2EDB56008CAE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BA6FF971F2EDB56008CAE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BA6FF9A1F2EDB56008CAE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0BA6FF9C1F2EDB56008CAE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BA6FFA21F2EE349008CAE9C /* IncomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeVC.swift; sourceTree = "<group>"; };
-		0BA6FFA41F2EE385008CAE9C /* ExpensesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesVC.swift; sourceTree = "<group>"; };
-		0BA6FFA61F2EE3DF008CAE9C /* GoalsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
-		0BA6FFA81F2EE3F1008CAE9C /* SummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
+		0B93A4F81F36EFDE004F4C26 /* Budget Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B93A4FB1F36EFDE004F4C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B93A4FD1F36EFDE004F4C26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B93A5001F36EFDE004F4C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B93A5021F36EFDE004F4C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B93A5051F36EFDE004F4C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B93A5071F36EFDE004F4C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B93A50D1F36F096004F4C26 /* IncomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomeVC.swift; sourceTree = "<group>"; };
+		0B93A50F1F36F0A8004F4C26 /* ExpensesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesVC.swift; sourceTree = "<group>"; };
+		0B93A5111F36F0CB004F4C26 /* Goals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		0B93A5131F36F0DE004F4C26 /* SummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
+		9F9809003D91791130C50D2F /* Pods_Budget_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Budget_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2478EBCC47F60A436B0F6FD /* Pods-Budget Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Budget Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Budget Manager/Pods-Budget Manager.release.xcconfig"; sourceTree = "<group>"; };
+		ED400EE9D983E013FDF53A6A /* Pods-Budget Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Budget Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Budget Manager/Pods-Budget Manager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BA6FF8A1F2EDB56008CAE9C /* Frameworks */ = {
+		0B93A4F51F36EFDE004F4C26 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031CCFCBC269D30F2BA6BA66 /* Pods_Budget_Manager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BA6FF841F2EDB56008CAE9C = {
+		0B93A4EF1F36EFDE004F4C26 = {
 			isa = PBXGroup;
 			children = (
-				0BA6FF8F1F2EDB56008CAE9C /* Budget Manager */,
-				0BA6FF8E1F2EDB56008CAE9C /* Products */,
+				0B93A4FA1F36EFDE004F4C26 /* Budget Manager */,
+				0B93A4F91F36EFDE004F4C26 /* Products */,
+				87B21A87EDFE2F6D5F6DF3F7 /* Pods */,
+				DAA53B4F174226C42BC10104 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0BA6FF8E1F2EDB56008CAE9C /* Products */ = {
+		0B93A4F91F36EFDE004F4C26 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BA6FF8D1F2EDB56008CAE9C /* Budget Manager.app */,
+				0B93A4F81F36EFDE004F4C26 /* Budget Manager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0BA6FF8F1F2EDB56008CAE9C /* Budget Manager */ = {
+		0B93A4FA1F36EFDE004F4C26 /* Budget Manager */ = {
 			isa = PBXGroup;
 			children = (
-				0BA6FF901F2EDB56008CAE9C /* AppDelegate.swift */,
-				0BA6FF921F2EDB56008CAE9C /* ViewController.swift */,
-				0BA6FF941F2EDB56008CAE9C /* Main.storyboard */,
-				0BA6FFA81F2EE3F1008CAE9C /* SummaryVC.swift */,
-				0BA6FFA61F2EE3DF008CAE9C /* GoalsVC.swift */,
-				0BA6FFA41F2EE385008CAE9C /* ExpensesVC.swift */,
-				0BA6FFA21F2EE349008CAE9C /* IncomeVC.swift */,
-				0BA6FF971F2EDB56008CAE9C /* Assets.xcassets */,
-				0BA6FF991F2EDB56008CAE9C /* LaunchScreen.storyboard */,
-				0BA6FF9C1F2EDB56008CAE9C /* Info.plist */,
+				0B93A4FB1F36EFDE004F4C26 /* AppDelegate.swift */,
+				0B93A4FD1F36EFDE004F4C26 /* ViewController.swift */,
+				0B93A4FF1F36EFDE004F4C26 /* Main.storyboard */,
+				0B93A5021F36EFDE004F4C26 /* Assets.xcassets */,
+				0B93A5041F36EFDE004F4C26 /* LaunchScreen.storyboard */,
+				0B93A5071F36EFDE004F4C26 /* Info.plist */,
+				0B93A50D1F36F096004F4C26 /* IncomeVC.swift */,
+				0B93A50F1F36F0A8004F4C26 /* ExpensesVC.swift */,
+				0B93A5111F36F0CB004F4C26 /* Goals.swift */,
+				0B93A5131F36F0DE004F4C26 /* SummaryVC.swift */,
 			);
 			path = "Budget Manager";
+			sourceTree = "<group>";
+		};
+		87B21A87EDFE2F6D5F6DF3F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED400EE9D983E013FDF53A6A /* Pods-Budget Manager.debug.xcconfig */,
+				D2478EBCC47F60A436B0F6FD /* Pods-Budget Manager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAA53B4F174226C42BC10104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F9809003D91791130C50D2F /* Pods_Budget_Manager.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BA6FF8C1F2EDB56008CAE9C /* Budget Manager */ = {
+		0B93A4F71F36EFDE004F4C26 /* Budget Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BA6FF9F1F2EDB56008CAE9C /* Build configuration list for PBXNativeTarget "Budget Manager" */;
+			buildConfigurationList = 0B93A50A1F36EFDE004F4C26 /* Build configuration list for PBXNativeTarget "Budget Manager" */;
 			buildPhases = (
-				0BA6FF891F2EDB56008CAE9C /* Sources */,
-				0BA6FF8A1F2EDB56008CAE9C /* Frameworks */,
-				0BA6FF8B1F2EDB56008CAE9C /* Resources */,
+				D0B38D73BE4BFA36EDD6ADF8 /* [CP] Check Pods Manifest.lock */,
+				0B93A4F41F36EFDE004F4C26 /* Sources */,
+				0B93A4F51F36EFDE004F4C26 /* Frameworks */,
+				0B93A4F61F36EFDE004F4C26 /* Resources */,
+				DC643D6FA019DB352884A9FD /* [CP] Embed Pods Frameworks */,
+				664A9EF8D2272A69ADC81C47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -93,26 +120,26 @@
 			);
 			name = "Budget Manager";
 			productName = "Budget Manager";
-			productReference = 0BA6FF8D1F2EDB56008CAE9C /* Budget Manager.app */;
+			productReference = 0B93A4F81F36EFDE004F4C26 /* Budget Manager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0BA6FF851F2EDB56008CAE9C /* Project object */ = {
+		0B93A4F01F36EFDE004F4C26 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Anhelina Shulha";
 				TargetAttributes = {
-					0BA6FF8C1F2EDB56008CAE9C = {
+					0B93A4F71F36EFDE004F4C26 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0BA6FF881F2EDB56008CAE9C /* Build configuration list for PBXProject "Budget Manager" */;
+			buildConfigurationList = 0B93A4F31F36EFDE004F4C26 /* Build configuration list for PBXProject "Budget Manager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -120,58 +147,118 @@
 				en,
 				Base,
 			);
-			mainGroup = 0BA6FF841F2EDB56008CAE9C;
-			productRefGroup = 0BA6FF8E1F2EDB56008CAE9C /* Products */;
+			mainGroup = 0B93A4EF1F36EFDE004F4C26;
+			productRefGroup = 0B93A4F91F36EFDE004F4C26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BA6FF8C1F2EDB56008CAE9C /* Budget Manager */,
+				0B93A4F71F36EFDE004F4C26 /* Budget Manager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BA6FF8B1F2EDB56008CAE9C /* Resources */ = {
+		0B93A4F61F36EFDE004F4C26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BA6FF9B1F2EDB56008CAE9C /* LaunchScreen.storyboard in Resources */,
-				0BA6FF981F2EDB56008CAE9C /* Assets.xcassets in Resources */,
-				0BA6FF961F2EDB56008CAE9C /* Main.storyboard in Resources */,
+				0B93A5061F36EFDE004F4C26 /* LaunchScreen.storyboard in Resources */,
+				0B93A5031F36EFDE004F4C26 /* Assets.xcassets in Resources */,
+				0B93A5011F36EFDE004F4C26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		664A9EF8D2272A69ADC81C47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budget Manager/Pods-Budget Manager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B38D73BE4BFA36EDD6ADF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Budget Manager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC643D6FA019DB352884A9FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Budget Manager/Pods-Budget Manager-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DDSpiderChart/DDSpiderChart.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DDSpiderChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Budget Manager/Pods-Budget Manager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0BA6FF891F2EDB56008CAE9C /* Sources */ = {
+		0B93A4F41F36EFDE004F4C26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BA6FF931F2EDB56008CAE9C /* ViewController.swift in Sources */,
-				0BA6FFA91F2EE3F1008CAE9C /* SummaryVC.swift in Sources */,
-				0BA6FFA31F2EE349008CAE9C /* IncomeVC.swift in Sources */,
-				0BA6FF911F2EDB56008CAE9C /* AppDelegate.swift in Sources */,
-				0BA6FFA71F2EE3DF008CAE9C /* GoalsVC.swift in Sources */,
-				0BA6FFA51F2EE385008CAE9C /* ExpensesVC.swift in Sources */,
+				0B93A5121F36F0CB004F4C26 /* Goals.swift in Sources */,
+				0B93A5141F36F0DE004F4C26 /* SummaryVC.swift in Sources */,
+				0B93A4FE1F36EFDE004F4C26 /* ViewController.swift in Sources */,
+				0B93A50E1F36F096004F4C26 /* IncomeVC.swift in Sources */,
+				0B93A4FC1F36EFDE004F4C26 /* AppDelegate.swift in Sources */,
+				0B93A5101F36F0A8004F4C26 /* ExpensesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0BA6FF941F2EDB56008CAE9C /* Main.storyboard */ = {
+		0B93A4FF1F36EFDE004F4C26 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0BA6FF951F2EDB56008CAE9C /* Base */,
+				0B93A5001F36EFDE004F4C26 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0BA6FF991F2EDB56008CAE9C /* LaunchScreen.storyboard */ = {
+		0B93A5041F36EFDE004F4C26 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0BA6FF9A1F2EDB56008CAE9C /* Base */,
+				0B93A5051F36EFDE004F4C26 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +266,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0BA6FF9D1F2EDB56008CAE9C /* Debug */ = {
+		0B93A5081F36EFDE004F4C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		0BA6FF9E1F2EDB56008CAE9C /* Release */ = {
+		0B93A5091F36EFDE004F4C26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,27 +359,29 @@
 			};
 			name = Release;
 		};
-		0BA6FFA01F2EDB56008CAE9C /* Debug */ = {
+		0B93A50B1F36EFDE004F4C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED400EE9D983E013FDF53A6A /* Pods-Budget Manager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Budget Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "comangieshu.Budget-Manager";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angieshu.Budget-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		0BA6FFA11F2EDB56008CAE9C /* Release */ = {
+		0B93A50C1F36EFDE004F4C26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2478EBCC47F60A436B0F6FD /* Pods-Budget Manager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Budget Manager/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "comangieshu.Budget-Manager";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angieshu.Budget-Manager";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -301,24 +390,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BA6FF881F2EDB56008CAE9C /* Build configuration list for PBXProject "Budget Manager" */ = {
+		0B93A4F31F36EFDE004F4C26 /* Build configuration list for PBXProject "Budget Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BA6FF9D1F2EDB56008CAE9C /* Debug */,
-				0BA6FF9E1F2EDB56008CAE9C /* Release */,
+				0B93A5081F36EFDE004F4C26 /* Debug */,
+				0B93A5091F36EFDE004F4C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BA6FF9F1F2EDB56008CAE9C /* Build configuration list for PBXNativeTarget "Budget Manager" */ = {
+		0B93A50A1F36EFDE004F4C26 /* Build configuration list for PBXNativeTarget "Budget Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BA6FFA01F2EDB56008CAE9C /* Debug */,
-				0BA6FFA11F2EDB56008CAE9C /* Release */,
+				0B93A50B1F36EFDE004F4C26 /* Debug */,
+				0B93A50C1F36EFDE004F4C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0BA6FF851F2EDB56008CAE9C /* Project object */;
+	rootObject = 0B93A4F01F36EFDE004F4C26 /* Project object */;
 }

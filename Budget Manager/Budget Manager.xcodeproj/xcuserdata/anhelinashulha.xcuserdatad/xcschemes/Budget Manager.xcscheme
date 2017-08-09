@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0BA6FF8C1F2EDB56008CAE9C"
+               BlueprintIdentifier = "0B93A4F71F36EFDE004F4C26"
                BuildableName = "Budget Manager.app"
                BlueprintName = "Budget Manager"
                ReferencedContainer = "container:Budget Manager.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BA6FF8C1F2EDB56008CAE9C"
+            BlueprintIdentifier = "0B93A4F71F36EFDE004F4C26"
             BuildableName = "Budget Manager.app"
             BlueprintName = "Budget Manager"
             ReferencedContainer = "container:Budget Manager.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BA6FF8C1F2EDB56008CAE9C"
+            BlueprintIdentifier = "0B93A4F71F36EFDE004F4C26"
             BuildableName = "Budget Manager.app"
             BlueprintName = "Budget Manager"
             ReferencedContainer = "container:Budget Manager.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0BA6FF8C1F2EDB56008CAE9C"
+            BlueprintIdentifier = "0B93A4F71F36EFDE004F4C26"
             BuildableName = "Budget Manager.app"
             BlueprintName = "Budget Manager"
             ReferencedContainer = "container:Budget Manager.xcodeproj">
