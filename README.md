@@ -92,15 +92,29 @@ Goal label consists of 5 elements: background, goal name and amount, 'Delete' bu
 
 addPayment() function changes the goal's amount and then saves data.
 
-<img width="500" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_addpayment.png">
+<img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_addpayment.png">
 
 The last function in this class I want to talk about, is called pressButton(). It gets called when the user wants to delete one of the goals. When this happens, the goal has to be removed from a dictionary, all the labels and buttons have to be removed as well, and, if there are any goals below the one that needs to be deleted, each of them has to be moved upward. Huh, I think, that is it for this class. 
 
-<img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_pressbutton.png">
+<img width="550" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/goals_pressbutton.png">
 
 
 ### SummaryVC
 
+This class is very simple. I only have 2 arrays and 1 IBOutlet here.
+When the application gets started I download user's data and display a line chart, that containes two charts on it: income and expenses.
+
+<img width="520" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/summaryvc.png">
+
+After all, in setChart() function I create income chart, expenses chart, and place both of them on the LineChartView.
+
+<img width="560" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/summary_setchart1.png">
+<img width="530" alt="add_income" src="https://github.com/angieshu/Budgie/blob/master/img/summary_setchart2.png">
+
+
+## Author
+
+Anhelina Shulha
 
 
 
