@@ -16,7 +16,7 @@
 
 ## Key Features
 
-• You can keep track of your income and expenses
+• Keep track of your income and expenses
 
 • Live preview (make changes, see changes)
 
